@@ -50,7 +50,7 @@ public class Test {
                 Document doc = (Document) dBuilder.parse(xmlFile);
                 doc.getDocumentElement().normalize();
                 NodeList nList = doc.getElementsByTagName("row");
-               // System.out.println("Keyspace Created");
+               // System.out.println("Keyspace Created");//
                 int a = 0;
                 for (int i = 0; i < nList.getLength(); i++) {
 
